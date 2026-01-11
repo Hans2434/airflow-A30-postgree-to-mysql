@@ -9,7 +9,7 @@
 
 ### Necessary screenshot
 1. connection
-![conn](src\image\connection.png)
+![conn](src/image/connection.png)
 
 2. running test
-![run](src\image\running%20test.png)
+![run](src/image/running%20test.png)
