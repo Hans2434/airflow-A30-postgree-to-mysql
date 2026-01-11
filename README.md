@@ -9,7 +9,16 @@
 
 ### Necessary screenshot
 1. connection
-![conn](src\image\connection.png)
+![conn](src/image/connection.png)
 
 2. running test
-![run](src\image\running%20test.png)
+![run](src/image/running%20test.png)
+
+3. dim_product
+![dimprod](src/image/dim_products.png)
+
+4. dim_customer
+![dimprod](src/image/dim_suctomer.png)
+
+5. fact_orders
+![factorders](src/image/fact_orders.png)

@@ -152,10 +152,10 @@ def transform_and_load_customers(**context):
             table='dim_customers',
             rows=rows_to_insert,
             target_fields=['id', 'name', 'phone', 'state'],
-            replace=False, # Kita pakai manual ON DUPLICATE KEY di bawah jika insert_rows tidak support upsert natif di versi lama
+            replace=False, 
         )
         
-        # OPSI ALTERNATIF (Manual Upsert Loop untuk Assignment ini):
+
         conn = mysql_hook.get_conn()
         cursor = conn.cursor()
         cursor.executemany(sql, rows_to_insert)
